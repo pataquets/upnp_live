@@ -57,5 +57,5 @@ debug-opt: debug
 
 .PHONY : clean
 clean :
-	rm *.o
-	rm upnp_live
+	rm -f *.o
+	rm -f upnp_live
